@@ -7,7 +7,7 @@
 * then just ```make``` and ```make install```
 
 # How to use
-* To built up your source use the ```-lSDL``` ```-lm``` switches or ```$(shell pkg-config --libs sdl2)```
+* To built up your source use the ```$(shell pkg-config --libs sdl2)```
 * Don't forget ```export PKG_CONFIG_PATH=$PS3DEV/portlibs/ppu/lib/pkgconfig/``` (only for the second option)
 
 # Original description
